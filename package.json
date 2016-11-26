@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/bienr/betica#readme",
   "dependencies": {
-    "jquery": "^3.1.1",
+    "numeral": "^1.5.6",
     "react": "^15.4.1",
     "react-dom": "^15.4.1"
   },
