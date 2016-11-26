@@ -43,3 +43,7 @@ export class Products extends React.Component {
         );
     }
 }
+
+Products.propTypes = {
+    items: React.PropTypes.arrayOf(React.PropTypes.object)
+};
