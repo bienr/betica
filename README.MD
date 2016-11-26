@@ -1,1 +1,2 @@
-#This is the initial exam for Betica
+#BETICA SHOP
+##This is a simple store web application created in React

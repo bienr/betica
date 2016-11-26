@@ -2,8 +2,6 @@ import React from "react";
 import { render } from "react-dom";
 import Numeral from "numeral";
 
-import "assets/css/products.scss";
-
 export class Products extends React.Component {
     constructor(props) {
         super();

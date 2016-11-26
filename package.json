@@ -1,11 +1,11 @@
 {
-  "name": "betica-exam",
+  "name": "betica-shop",
   "version": "1.0.0",
-  "description": "Betica Intial Exam",
+  "description": "Betica Shop created using ReactJS, SASS and Webpack",
   "main": "index.js",
   "scripts": {
     "start": "npm run build",
-    "build": "webpack -d && cp src/index.html dist/index.html && webpack-dev-server --content-base src/ --inline --hot --history-api-fallback --progress --colors",
+    "build": "webpack -d && cp src/index.html dist/index.html && webpack-dev-server --content-base src/ --inline --hot --history-api-fallback --colors",
     "build:prod": "webpack -p && cp src/index.html dist/index.html"
   },
   "repository": {
@@ -15,7 +15,7 @@
   "keywords": [
     "betica",
     "javascript",
-    "exam"
+    "reactjs"
   ],
   "author": "Bien Angelo D. Relucano",
   "license": "MIT",
