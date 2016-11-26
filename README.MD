@@ -1,5 +1,5 @@
 #BETICA SHOP
-### Created by: Bien Angelo Rellucano
+### Created by: Bien Angelo Relucano
 
 This is a simple Betica Store Web Application created using:
 * ReactJS
