@@ -27,9 +27,24 @@ var config = {
             },
             {
                 test: /\.scss$/,
-                loaders: ["style", "css?sourceMap", "sass?sourceMap"]
+                include: SRC_DIR,
+                loaders: [
+                    'style',
+                    'css',
+                    'autoprefixer?browsers=last 3 versions',
+                    'sass?outputStyle=expanded'
+                ]
+            },
+            {
+                test: /\.(png|jpg)$/,
+                loader: 'url-loader'
             }
         ]
+    },
+    resolve: {
+        alias: {
+            assets: SRC_DIR + "/app/assets"
+        }
     }
 };
 

@@ -1,11 +1,11 @@
 import React from "react";
 import { render } from "react-dom";
 
-import { Header } from "./components/header/header";
-import { Footer } from "./components/footer/footer";
+import { Header } from "./components/partials/header";
+import { Footer } from "./components/partials/footer";
 import { Products } from "./components/products/products";
 
-require("./index.scss");
+import "./index.scss";
 
 class App extends React.Component {
     constructor() {
@@ -56,8 +56,8 @@ class App extends React.Component {
     render() {
         return (
             <div>
+                <Header title={this.state.title}/>
                 <div className="container">
-                    <Header title={this.state.title}/>
                     <main>
                         <div className="phones">
                             <h2>Phones</h2>
@@ -72,8 +72,8 @@ class App extends React.Component {
                             </div>
                         </div>
                     </main>
-                    <Footer title={this.state.title} />
                 </div>
+                <Footer title={this.state.title} />
             </div>
         );
     }
